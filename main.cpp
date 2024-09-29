@@ -2,9 +2,12 @@
 
 int main()
 {
-    std::cout<<"Hello world";
+    std::cout << "Hello world";
 
-    getchar();
+    std::cout << "\nInput one number: ";
 
+    int number1 = 0;
+    std::cout<<"Your number: " << number1;
+    getchar();  
     return 0;
 }
